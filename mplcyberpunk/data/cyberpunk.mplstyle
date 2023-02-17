@@ -12,12 +12,12 @@ font.family: sans-serif
 font.sans-serif: Arial, Liberation Sans, DejaVu Sans, Bitstream Vera Sans, sans-serif
 grid.linestyle: -
 lines.solid_capstyle: round
-axes.linewidth: 0
-xtick.major.size: 0
+#axes.linewidth: 4
+xtick.major.size: 2
 ytick.major.size: 0
 xtick.minor.size: 0
 ytick.minor.size: 0
-
+axes.edgecolor: 99acf2
 
 # neon colors: teal/cyan, pink, yellow, matrix green, red, violet
 axes.prop_cycle: cycler('color', ['08F7FE', 'FE53BB', 'F5D300', '00ff41', 'r', '9467bd', ])
@@ -31,8 +31,8 @@ xtick.color: 0.9
 ytick.color: 0.9
 
 # background: bluish dark grey
-figure.facecolor: 212946
-axes.facecolor: 212946
+figure.facecolor: 121212
+axes.facecolor: 121212
 savefig.facecolor: 212946
 
 # grid: bluish dark grey, slightly lighter than background
